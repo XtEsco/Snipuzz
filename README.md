@@ -1,2 +1,2 @@
 # Snipuzz
-a blackbox network fuzzer for IoT devices
+A blackbox network fuzzer for IoT devices
