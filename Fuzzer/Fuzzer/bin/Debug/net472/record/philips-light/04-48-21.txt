@@ -1,0 +1,228 @@
+First Status - Begin
+=====================================================
+Message 1 :
+
+{"on":true}
+1 1 2 3 1 1 1 1 1 1 1 
+
+=====================================================
+Message 2 :
+
+{"on":false,"sat":140,"bri":254,"hue":8418,"alert":"select","xy":[0.4573,0.41],"ct": 366}
+1 1 2 2 1 1 1 1 1 1 1 1 1 3 4 5 1 1 2 2 6 1 1 2 2 2 1 1 2 2 6 1 1 5 5 5 1 1 7 8 9 10 1 1 5 5 5 5 5 1 1 1 5 5 5 5 5 5 1 1 1 5 5 1 1 1 1 1 11 12 13 14 1 1 1 15 2 1 1 1 2 2 1 1 2 2 6 2 1 
+
+=====================================================
+Message 3 :
+
+{"name":"LightForTest"}
+1 1 2 3 4 5 1 1 1 6 7 8 9 10 11 12 13 14 15 16 17 1 1 
+
+
+First Status - End
+
+Response Type - Begin
+Index - 0
+===============
+[{"success":{"/lights/1/state/on":true}}]
+---------------
+1
++++++++++++++++
+===============
+[{"error":{"type":2,"address":"/lights/1/state","description":"body contains invalid json"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"error":{"type":6,"address":"/lights/1/state/n","description":"parameter, n, not available"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"error":{"type":6,"address":"/lights/1/state/o","description":"parameter, o, not available"}}]
+---------------
+1
++++++++++++++++
+Index - End
+
+
+Index - 1
+===============
+[{"success":{"/lights/1/state/hue":8418}},{"success":{"/lights/1/state/sat":140}},{"success":{"/lights/1/state/ct":366}},{"success":{"/lights/1/state/xy":[0.4573,0.4100]}},{"success":{"/lights/1/state/bri":254}},{"success":{"/lights/1/state/alert":"select"}},{"success":{"/lights/1/state/on":false}}]
+---------------
+1
++++++++++++++++
+===============
+[{"error":{"type":2,"address":"/lights/1/state","description":"body contains invalid json"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"error":{"type":6,"address":"/lights/1/state/n","description":"parameter, n, not available"}},{"success":{"/lights/1/state/hue":8418}},{"success":{"/lights/1/state/sat":140}},{"error":{"type":901,"address":"/lights/1/state/ct","description":"Internal error, 404"}},{"error":{"type":901,"address":"/lights/1/state/xy","description":"Internal error, 404"}},{"error":{"type":901,"address":"/lights/1/state/bri","description":"Internal error, 404"}},{"error":{"type":901,"address":"/lights/1/state/alert","description":"Internal error, 404"}}]
+---------------
+0.851153039832285
++++++++++++++++
+===============
+[{"error":{"type":6,"address":"/lights/1/state/at","description":"parameter, at, not available"}},{"success":{"/lights/1/state/hue":8418}},{"success":{"/lights/1/state/ct":366}},{"success":{"/lights/1/state/xy":[0.4573,0.4100]}},{"success":{"/lights/1/state/bri":254}},{"success":{"/lights/1/state/alert":"select"}},{"success":{"/lights/1/state/on":false}}]
+---------------
+1
++++++++++++++++
+===============
+[{"error":{"type":6,"address":"/lights/1/state/st","description":"parameter, st, not available"}},{"success":{"/lights/1/state/hue":8418}},{"success":{"/lights/1/state/ct":366}},{"success":{"/lights/1/state/xy":[0.4573,0.4100]}},{"success":{"/lights/1/state/bri":254}},{"success":{"/lights/1/state/alert":"select"}},{"success":{"/lights/1/state/on":false}}]
+---------------
+1
++++++++++++++++
+===============
+[{"error":{"type":6,"address":"/lights/1/state/sa","description":"parameter, sa, not available"}},{"success":{"/lights/1/state/hue":8418}},{"success":{"/lights/1/state/ct":366}},{"success":{"/lights/1/state/xy":[0.4573,0.4100]}},{"success":{"/lights/1/state/bri":254}},{"success":{"/lights/1/state/alert":"select"}},{"success":{"/lights/1/state/on":false}}]
+---------------
+0.912751677852349
++++++++++++++++
+===============
+[{"error":{"type":901,"address":"/lights/1/state/hue","description":"Internal error, 404"}},{"error":{"type":901,"address":"/lights/1/state/sat","description":"Internal error, 404"}},{"error":{"type":901,"address":"/lights/1/state/ct","description":"Internal error, 404"}},{"error":{"type":901,"address":"/lights/1/state/xy","description":"Internal error, 404"}},{"error":{"type":901,"address":"/lights/1/state/bri","description":"Internal error, 404"}},{"error":{"type":901,"address":"/lights/1/state/alert","description":"Internal error, 404"}},{"error":{"type":901,"address":"/lights/1/state/on","description":"Internal error, 404"}}]
+---------------
+0.738461538461539
++++++++++++++++
+===============
+[{"success":{"/lights/1/state/hue":418}},{"success":{"/lights/1/state/sat":140}},{"success":{"/lights/1/state/ct":366}},{"success":{"/lights/1/state/xy":[0.4573,0.4100]}},{"success":{"/lights/1/state/bri":254}},{"success":{"/lights/1/state/alert":"select"}},{"success":{"/lights/1/state/on":false}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/state/hue":818}},{"success":{"/lights/1/state/sat":140}},{"success":{"/lights/1/state/ct":366}},{"success":{"/lights/1/state/xy":[0.4573,0.4100]}},{"success":{"/lights/1/state/bri":254}},{"success":{"/lights/1/state/alert":"select"}},{"success":{"/lights/1/state/on":false}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/state/hue":848}},{"success":{"/lights/1/state/sat":140}},{"success":{"/lights/1/state/ct":366}},{"success":{"/lights/1/state/xy":[0.4573,0.4100]}},{"success":{"/lights/1/state/bri":254}},{"success":{"/lights/1/state/alert":"select"}},{"success":{"/lights/1/state/on":false}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/state/hue":841}},{"success":{"/lights/1/state/sat":140}},{"success":{"/lights/1/state/ct":366}},{"success":{"/lights/1/state/xy":[0.4573,0.4100]}},{"success":{"/lights/1/state/bri":254}},{"success":{"/lights/1/state/alert":"select"}},{"success":{"/lights/1/state/on":false}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/state/hue":8418}},{"success":{"/lights/1/state/sat":140}},{"success":{"/lights/1/state/ct":366}},{"success":{"/lights/1/state/xy":[0.5730,0.4100]}},{"success":{"/lights/1/state/bri":254}},{"success":{"/lights/1/state/alert":"select"}},{"success":{"/lights/1/state/on":false}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/state/hue":8418}},{"success":{"/lights/1/state/sat":140}},{"success":{"/lights/1/state/ct":366}},{"success":{"/lights/1/state/xy":[0.4730,0.4100]}},{"success":{"/lights/1/state/bri":254}},{"success":{"/lights/1/state/alert":"select"}},{"success":{"/lights/1/state/on":false}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/state/hue":8418}},{"success":{"/lights/1/state/sat":140}},{"success":{"/lights/1/state/ct":366}},{"success":{"/lights/1/state/xy":[0.4530,0.4100]}},{"success":{"/lights/1/state/bri":254}},{"success":{"/lights/1/state/alert":"select"}},{"success":{"/lights/1/state/on":false}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/state/hue":8418}},{"success":{"/lights/1/state/sat":140}},{"success":{"/lights/1/state/ct":366}},{"success":{"/lights/1/state/xy":[0.4570,0.4100]}},{"success":{"/lights/1/state/bri":254}},{"success":{"/lights/1/state/alert":"select"}},{"success":{"/lights/1/state/on":false}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/state/hue":8418}},{"success":{"/lights/1/state/sat":140}},{"success":{"/lights/1/state/ct":366}},{"success":{"/lights/1/state/xy":[0.4573,0.1000]}},{"success":{"/lights/1/state/bri":254}},{"success":{"/lights/1/state/alert":"select"}},{"success":{"/lights/1/state/on":false}}]
+---------------
+1
++++++++++++++++
+Index - End
+
+
+Index - 2
+===============
+[{"success":{"/lights/1/name":"LightForTest"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"error":{"type":2,"address":"/lights/1","description":"body contains invalid json"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"error":{"type":6,"address":"/lights/1/ame","description":"parameter, ame, not available"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"error":{"type":6,"address":"/lights/1/nme","description":"parameter, nme, not available"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"error":{"type":6,"address":"/lights/1/nae","description":"parameter, nae, not available"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"error":{"type":6,"address":"/lights/1/nam","description":"parameter, nam, not available"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/name":"ightForTest"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/name":"LghtForTest"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/name":"LihtForTest"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/name":"LigtForTest"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/name":"LighForTest"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/name":"LightorTest"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/name":"LightFrTest"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/name":"LightFoTest"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/name":"LightForest"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/name":"LightForTst"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/name":"LightForTet"}}]
+---------------
+1
++++++++++++++++
+===============
+[{"success":{"/lights/1/name":"LightForTes"}}]
+---------------
+1
++++++++++++++++
+Index - End
+
+
+
+Response Type - End
+

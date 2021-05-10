@@ -1,0 +1,60 @@
+First Status - Begin
+=====================================================
+Message 1 :
+
+{"id":1,"method":"start_cf","params":[ 4, , "1000, 2, 2700, 100, 500, 1, 255, 10, 5000, 7, 0,0, 500, 2, 5000, 1"]}
+1 1 1 1 1 0 2 3 1 4 4 4 4 4 4 1 0 1 5 5 5 5 5 5 5 5 1 0 1 4 4 4 4 4 4 1 0 1 0 0 0 0 0 0 0 0 0 0 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+
+
+First Status - End
+
+Response Type - Begin
+Index - 0
+===============
+{"id":1, "error":{"code":-5000,"message":"general error"}}
+
+---------------
+1
++++++++++++++++
+===============
+{"id":(null), "error":{"code":-1, "message":"invalid command"}}
+
+---------------
+1
++++++++++++++++
+===============
+{"id":method, "error":{"code":-1, "message":"invalid command"}}
+
+---------------
+1
++++++++++++++++
+===============
+{"id":1"method":"start_cf", "error":{"code":-1, "message":"invalid command"}}
+
+---------------
+1
++++++++++++++++
+===============
+{"id":1, "error":{"code":-1, "message":"invalid command"}}
+
+---------------
+1
++++++++++++++++
+===============
+{"id":1, "error":{"code":-1, "message":"method not supported"}}
+
+---------------
+1
++++++++++++++++
+===============
+{"id":1, "error":{"code":-1, "message":"client quota exceeded"}}
+
+---------------
+1
++++++++++++++++
+Index - End
+
+
+
+Response Type - End
+

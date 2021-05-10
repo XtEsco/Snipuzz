@@ -1,0 +1,893 @@
+First Status - Begin
+=====================================================
+Message 1 :
+
+{"method":"login","url":"https://wap.tplinkcloud.com","params":{"appType":"Kasa_Android","cloudPassword":"000106lu","cloudUserName":"escofeng@gmail.com","terminalUUID":"cdf77221-371d-4125-87ac-e068a2e16118"}}
+1 1 2 2 2 2 2 2 1 1 1 2 2 2 2 2 1 1 1 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 3 3 3 3 3 3 1 1 1 1 3 3 3 3 3 3 3 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 3 3 3 3 3 3 3 3 3 3 3 3 3 1 1 1 4 4 4 4 4 4 4 4 1 1 1 3 3 3 3 3 3 3 3 3 3 3 3 3 1 1 1 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 1 1 1 3 3 3 3 3 3 3 3 3 3 3 3 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+
+=====================================================
+Message 2 :
+
+{"method":"passthrough", "params": {"deviceId": "800671CE1DA43E81F0BF4A8FCBC8AAFD17623753", "requestData": "{\"system\":{\"set_relay_state\":{\"state\":0}}}" }}
+1 1 2 2 2 2 2 2 1 1 1 2 2 2 2 2 2 2 2 2 2 2 1 1 0 1 3 3 3 3 3 3 1 1 0 1 1 3 3 3 3 3 3 3 3 1 1 0 1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 1 1 0 1 5 5 5 5 5 5 5 5 5 5 5 1 1 5 1 5 1 1 5 5 5 5 5 5 1 1 5 5 1 1 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 1 1 5 5 1 1 5 5 5 5 5 1 1 5 5 5 5 5 1 5 1 1 
+
+=====================================================
+Message 3 :
+
+{"method":"passthrough", "params": {"deviceId": "800671CE1DA43E81F0BF4A8FCBC8AAFD17623753", "requestData": "{\"system\":{\"set_relay_state\":{\"state\":1}}}" }}
+1 1 2 2 2 2 2 2 1 1 1 2 2 2 2 2 2 2 2 2 2 2 1 1 0 1 3 3 3 3 3 3 1 1 0 1 1 3 3 3 3 3 3 3 3 1 1 0 1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 1 1 0 1 5 5 5 5 5 5 5 5 5 5 5 1 1 5 1 5 1 1 5 5 5 5 5 5 1 1 5 5 1 1 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 1 1 5 5 1 1 5 5 5 5 5 1 1 5 5 5 5 5 1 5 1 1 
+
+=====================================================
+Message 4 :
+
+{"method":"passthrough", "params": {"deviceId": "800671CE1DA43E81F0BF4A8FCBC8AAFD17623753", "requestData": "{\"schedule\":{\"add_rule\":{\"stime_opt\":0,\"wday\":[0,1,1,1,1,1,0],\"smin\":1411,\"enable\":1,\"repeat\":1,\"etime_opt\":-1,\"name\":\"\",\"eact\":-1,\"month\":0,\"sact\":0,\"year\":0,\"longitude\":0,\"day\":0,\"force\":0,\"latitude\":0,\"emin\":0},\"set_overall_enable\":{\"enable\":1}}}" }}
+1 1 2 2 2 2 2 2 1 1 1 2 2 2 2 2 2 2 2 2 2 2 1 1 3 1 4 4 4 4 4 4 1 1 3 1 1 4 4 4 4 4 4 4 4 1 1 3 1 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 1 1 3 1 3 3 3 3 3 3 3 3 3 3 3 1 1 3 1 3 1 1 3 3 3 3 3 3 3 3 1 1 3 3 1 1 3 3 3 3 3 3 3 3 1 1 3 3 1 1 6 3 3 3 3 3 3 3 3 1 1 3 3 3 1 1 3 3 3 3 1 1 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 1 1 3 3 3 3 1 1 3 3 3 3 3 3 1 1 3 3 3 3 3 3 1 1 3 3 3 1 3 3 3 3 3 3 3 1 1 3 3 3 1 1 3 3 3 3 3 3 3 3 3 1 1 3 3 3 3 1 3 3 3 3 3 1 1 3 1 1 1 1 3 1 1 3 3 3 3 1 1 3 3 3 3 1 1 3 3 3 3 3 1 1 3 3 3 1 1 3 3 3 3 1 1 3 3 3 1 1 3 3 3 3 1 1 3 3 3 1 1 3 3 3 3 3 3 3 3 3 1 1 3 3 3 1 1 3 3 3 1 1 3 3 3 1 3 3 3 3 3 3 1 1 6 3 3 1 1 3 3 3 3 3 3 3 3 1 1 3 3 3 1 1 3 3 3 3 1 1 3 3 3 3 1 1 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 1 1 3 3 1 1 3 3 3 3 3 3 1 1 3 3 3 3 3 1 3 1 1 
+
+=====================================================
+Message 5 :
+
+{"method":"passthrough", "params": {"deviceId": "800671CE1DA43E81F0BF4A8FCBC8AAFD17623753", "requestData": "{\"schedule\":{\"edit_rule\":{\"stime_opt\":0,\"wday\":[0,1,1,1,1,1,0],\"smin\":1411,\"enable\":0,\"repeat\":1,\"etime_opt\":-1,\"id\":\"27D236000E8B21C641A59DCB5C93ECBB\",\"name\":\"\",\"eact\":-1,\"month\":0,\"sact\":0,\"year\":0,\"longitude\":0,\"day\":0,\"force\":0,\"latitude\":0,\"emin\":0},\"set_overall_enable\":{\"enable\":1}}}" }}
+1 1 2 2 2 2 2 2 1 1 1 2 2 2 2 2 2 2 2 2 2 2 1 1 0 1 3 3 3 3 3 3 1 1 0 1 1 3 3 3 3 3 3 3 3 1 1 0 1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 1 1 0 1 5 5 5 5 5 5 5 5 5 5 5 1 1 5 1 5 1 1 5 5 5 5 5 5 5 5 1 1 5 5 1 1 5 5 5 5 5 5 5 5 5 1 1 5 5 1 1 5 5 5 5 5 5 5 5 5 1 1 5 5 5 1 1 5 5 5 5 1 1 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 1 1 5 5 5 5 1 1 5 5 5 5 5 5 1 1 5 5 5 5 5 5 1 1 5 5 5 1 5 5 5 5 5 5 5 1 1 5 5 5 1 1 5 5 5 5 5 5 5 5 5 1 1 5 5 5 5 1 1 5 5 1 1 5 1 1 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 1 1 5 1 5 5 5 5 5 1 1 5 1 1 1 1 5 1 1 5 5 5 5 1 1 5 5 5 5 1 1 5 5 5 5 5 1 1 5 5 5 1 1 5 5 5 5 1 1 5 5 5 1 1 5 5 5 5 1 1 5 5 5 1 1 5 5 5 5 5 5 5 5 5 1 1 5 5 5 1 1 5 5 5 1 1 5 5 5 1 5 5 5 5 5 5 1 1 5 5 5 1 1 5 5 5 5 5 5 5 5 1 1 5 5 5 1 1 5 5 5 5 1 1 6 6 6 6 1 1 7 8 9 10 11 12 13 14 15 16 16 17 18 19 20 21 22 23 1 1 6 6 1 1 24 24 24 24 24 24 1 1 6 6 6 6 6 1 0 1 1 
+
+=====================================================
+Message 6 :
+
+{"method":"passthrough", "params": {"deviceId": "800671CE1DA43E81F0BF4A8FCBC8AAFD17623753", "requestData": "{\"schedule\":{\"delete_rule\":{\"id\":\"27D236000E8B21C641A59DCB5C93ECBB\"}}}" }}
+1 1 2 2 2 2 2 2 1 1 1 2 2 2 2 2 2 2 2 2 2 2 1 1 0 1 3 3 3 3 3 3 1 1 0 1 1 3 3 3 3 3 3 3 3 1 1 0 1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 1 1 0 1 5 5 5 5 5 5 5 5 5 5 5 1 1 5 1 5 1 1 5 5 5 5 5 5 5 5 1 1 5 5 1 1 5 5 5 5 5 5 5 5 5 5 5 1 1 5 5 1 1 5 5 1 1 5 1 1 5 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 1 6 6 6 1 0 1 1 
+
+=====================================================
+Message 7 :
+
+{"method":"passthrough", "params": {"deviceId": "800671CE1DA43E81F0BF4A8FCBC8AAFD17623753", "requestData": "{\"emeter\":{\"get_realtime\":null,\"get_daystat\":{\"month\":4,\"year\":2020},\"get_monthstat\":{\"year\":2020}},\"schedule\":{\"get_next_action\":null,\"get_daystat\":{\"month\":4,\"year\":2020},\"get_monthstat\":{\"year\":2020}},\"system\":{\"get_sysinfo\":null}}" }}
+1 1 2 2 2 2 2 2 1 1 1 2 2 2 2 2 2 2 2 2 2 2 1 1 3 1 4 4 4 4 4 4 1 1 5 1 1 4 4 4 4 4 4 4 4 1 1 5 1 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 1 1 5 1 7 7 7 7 7 7 7 7 7 7 7 1 1 7 1 7 1 1 7 7 7 7 7 7 1 1 7 7 1 1 7 7 7 7 7 7 7 7 7 7 7 7 1 1 7 7 7 7 7 7 1 1 7 7 7 7 7 7 7 7 7 7 7 1 1 7 7 1 1 7 7 7 7 7 1 1 7 7 7 1 1 7 7 7 7 1 1 7 7 7 7 7 7 7 1 1 7 7 7 7 7 7 7 7 7 7 7 7 7 1 1 7 7 1 1 7 7 7 7 1 1 7 7 7 7 7 7 7 7 1 1 7 7 7 7 7 7 7 7 1 1 7 7 1 1 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 1 1 7 7 7 7 7 7 1 1 7 7 7 7 7 7 7 7 7 7 7 1 1 7 7 1 1 7 7 7 7 7 1 1 7 7 7 1 1 7 7 7 7 1 1 7 7 7 7 7 7 7 1 1 7 7 7 7 7 7 7 7 7 7 7 7 7 1 1 7 7 1 1 7 7 7 7 1 1 7 7 7 7 7 7 7 7 1 1 7 7 7 7 7 7 1 1 7 7 1 1 7 7 7 7 7 7 7 7 7 7 7 1 1 7 7 7 7 7 7 7 1 7 1 1 
+
+=====================================================
+Message 8 :
+
+{"method":"passthrough", "params": {"deviceId": "800671CE1DA43E81F0BF4A8FCBC8AAFD17623753", "requestData": "{\"emeter\":{\"get_realtime\":null,\"get_daystat\":{\"month\":4,\"year\":2020},\"get_monthstat\":{\"year\":2020}},\"schedule\":{\"get_next_action\":null,\"get_daystat\":{\"month\":4,\"year\":2020},\"get_monthstat\":{\"year\":2020}},\"system\":{\"get_sysinfo\":null}}" }}
+1 1 2 2 2 2 2 2 1 1 1 2 2 2 2 2 2 2 2 2 2 2 1 1 3 1 4 4 4 4 4 4 1 1 5 1 1 4 4 4 4 4 4 4 4 1 1 3 1 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 1 1 3 1 7 7 7 7 7 7 7 7 7 7 7 1 1 7 1 7 1 1 7 7 7 7 7 7 1 1 3 3 1 1 8 9 10 11 12 12 13 14 15 16 17 17 1 1 3 3 5 3 3 3 1 1 18 19 20 21 22 23 24 22 24 22 22 1 1 25 3 1 1 26 27 26 28 29 1 1 30 25 30 1 1 27 26 28 29 1 1 3 3 31 3 3 3 3 1 1 32 33 34 35 36 37 32 38 39 40 41 42 32 1 1 3 5 1 1 43 43 43 43 1 1 3 44 44 44 44 3 3 3 1 1 45 45 45 46 45 47 45 45 1 1 5 3 1 1 48 49 49 50 51 52 53 54 55 56 57 54 48 48 48 1 1 30 31 3 31 25 58 1 1 18 59 60 60 22 22 24 60 59 22 60 1 1 5 30 1 1 61 29 28 28 29 1 1 25 3 3 1 1 61 28 29 29 1 1 3 5 5 3 5 3 31 1 1 62 63 64 65 66 67 68 69 70 71 64 72 73 1 1 30 31 1 1 74 75 76 77 1 1 3 78 78 78 78 3 3 3 1 1 79 80 81 82 83 83 1 1 3 84 1 1 85 86 85 87 88 89 90 91 92 93 94 1 1 30 30 95 58 95 3 95 1 3 1 1 
+
+
+First Status - End
+
+Response Type - Begin
+Index - 0
+===============
+{"error_code":0,"result":{"accountId":"7198820","regTime":"2019-08-18 05:58:01","email":"escofeng@gmail.com","token":"20cd1c05-C78FJvrwNErMoglol9DtGr6"}}
+---------------
+0.846666666666667
++++++++++++++++
+===============
+{"error_code":-10100,"msg":"JSON format error"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20103,"msg":"The method does not exist or is not available"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20104,"msg":"Parameter doesn't exist"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20601,"msg":"Password incorrect"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20600,"msg":"Account not found"}
+---------------
+1
++++++++++++++++
+Index - End
+
+
+Index - 1
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_state\":{\"err_code\":0}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-10100,"msg":"JSON format error"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20103,"msg":"The method does not exist or is not available"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20104,"msg":"Parameter doesn't exist"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20580,"msg":"Account is not binded to the device"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20573,"msg":"Device is offline during processing"}
+---------------
+0.795918367346939
++++++++++++++++
+Index - End
+
+
+Index - 2
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_state\":{\"err_code\":0}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-10100,"msg":"JSON format error"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20103,"msg":"The method does not exist or is not available"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20104,"msg":"Parameter doesn't exist"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20580,"msg":"Account is not binded to the device"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20573,"msg":"Device is offline during processing"}
+---------------
+0.795918367346939
++++++++++++++++
+Index - End
+
+
+Index - 3
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"add_rule\":{\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"set_overall_enable\":{\"err_code\":0}}}"}}
+---------------
+0.881443298969072
++++++++++++++++
+===============
+{"error_code":-10100,"msg":"JSON format error"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20103,"msg":"The method does not exist or is not available"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20571,"msg":"Device is offline"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20104,"msg":"Parameter doesn't exist"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20580,"msg":"Account is not binded to the device"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20573,"msg":"Device is offline during processing"}
+---------------
+0.795918367346939
++++++++++++++++
+Index - End
+
+
+Index - 4
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_overall_enable\":{\"err_code\":0}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-10100,"msg":"JSON format error"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20103,"msg":"The method does not exist or is not available"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20104,"msg":"Parameter doesn't exist"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20580,"msg":"Account is not binded to the device"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20573,"msg":"Device is offline during processing"}
+---------------
+0.795918367346939
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"add_rule\":{\"conflict_id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":-12,\"err_msg\":\"rule is conflict\"},\"set_overall_enable\":{\"err_code\":0}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"et_overall_enable\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"st_overall_enable\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"se_overall_enable\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"setoverall_enable\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_verall_enable\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_oerall_enable\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_ovrall_enable\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_oveall_enable\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_overll_enable\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_overal_enable\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_overallenable\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_overall_nable\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_overall_eable\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_overall_enble\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_overall_enale\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_overall_enabe\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_overall_enabl\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_overall_enable\":{\"err_code\":-3,\"err_msg\":\"invalid argument\"}}}"}}
+---------------
+1
++++++++++++++++
+Index - End
+
+
+Index - 5
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"delete_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-10100,"msg":"JSON format error"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20103,"msg":"The method does not exist or is not available"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20104,"msg":"Parameter doesn't exist"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20580,"msg":"Account is not binded to the device"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20573,"msg":"Device is offline during processing"}
+---------------
+0.795918367346939
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"schedule\":{\"edit_rule\":{\"err_code\":-14,\"err_msg\":\"entry not exist\"},\"set_overall_enable\":{\"err_code\":0}}}"}}
+---------------
+1
++++++++++++++++
+Index - End
+
+
+Index - 6
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016081,\"voltage\":117.606271,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":5}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991056910569106
++++++++++++++++
+===============
+{"error_code":-10100,"msg":"JSON format error"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20103,"msg":"The method does not exist or is not available"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016110,\"voltage\":117.309280,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.9910641754671
++++++++++++++++
+===============
+{"error_code":-20104,"msg":"Parameter doesn't exist"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015799,\"voltage\":117.437919,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990251827782291
++++++++++++++++
+===============
+{"error_code":-20580,"msg":"Account is not binded to the device"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20573,"msg":"Device is offline during processing"}
+---------------
+0.795918367346939
++++++++++++++++
+Index - End
+
+
+Index - 7
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015845,\"voltage\":117.588209,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":5}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":4,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991056910569106
++++++++++++++++
+===============
+{"error_code":-10100,"msg":"JSON format error"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20103,"msg":"The method does not exist or is not available"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015673,\"voltage\":117.263547,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.9910641754671
++++++++++++++++
+===============
+{"error_code":-20104,"msg":"Parameter doesn't exist"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015971,\"voltage\":117.308557,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-52,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991876523151909
++++++++++++++++
+===============
+{"error_code":-20580,"msg":"Account is not binded to the device"}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":-20573,"msg":"Device is offline during processing"}
+---------------
+0.795918367346939
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"et_realtime\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-52,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.998324958123953
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"gt_realtime\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+1
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"ge_realtime\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.998324958123953
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"getrealtime\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.998324958123953
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_ealtime\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.998324958123953
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_reltime\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.998324958123953
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_reatime\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-54,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.99748743718593
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realime\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.998324958123953
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtme\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-52,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.998324958123953
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtie\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-52,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.998324958123953
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015417,\"voltage\":117.201859,\"power\":0,\"total\":0,\"err_code\":0},\"et_daystat\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-59,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991974317817014
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015703,\"voltage\":117.162267,\"power\":0,\"total\":0,\"err_code\":0},\"gt_daystat\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.993579454253612
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015739,\"voltage\":117.145955,\"power\":0,\"total\":0,\"err_code\":0},\"ge_daystat\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.993579454253612
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015882,\"voltage\":117.125430,\"power\":0,\"total\":0,\"err_code\":0},\"getdaystat\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990369181380417
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015962,\"voltage\":117.058697,\"power\":0,\"total\":0,\"err_code\":0},\"get_aystat\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.989566613162119
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015793,\"voltage\":116.999135,\"power\":0,\"total\":0,\"err_code\":0},\"get_dystat\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-55,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.989566613162119
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015929,\"voltage\":117.079150,\"power\":0,\"total\":0,\"err_code\":0},\"get_dastat\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-55,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.98876404494382
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016523,\"voltage\":117.105902,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991876523151909
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015566,\"voltage\":116.962369,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"err_code\":-3,\"err_msg\":\"invalid argument\"},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-52,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991178829190056
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015468,\"voltage\":116.950931,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"err_code\":-3,\"err_msg\":\"invalid argument\"},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-51,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991178829190056
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015862,\"voltage\":117.040299,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"err_code\":-3,\"err_msg\":\"invalid argument\"},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-54,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991980753809142
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015595,\"voltage\":117.116598,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"err_code\":-3,\"err_msg\":\"invalid argument\"},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991178829190056
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015762,\"voltage\":117.139862,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990251827782291
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016100,\"voltage\":117.415191,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990251827782291
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015808,\"voltage\":117.420716,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"et_monthstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-52,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.989202657807309
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015452,\"voltage\":117.298447,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"gt_monthstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990863787375415
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015567,\"voltage\":117.466819,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"ge_monthstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991694352159468
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015846,\"voltage\":117.556282,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"getmonthstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.992524916943522
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015930,\"voltage\":117.522177,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_onthstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.993355481727575
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016084,\"voltage\":117.505356,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_mnthstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.993355481727575
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015801,\"voltage\":117.486536,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monhstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990863787375415
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015891,\"voltage\":117.507934,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_montstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991694352159468
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015565,\"voltage\":117.572073,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthtat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990863787375415
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016298,\"voltage\":117.792778,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthsat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.992524916943522
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015641,\"voltage\":117.822425,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstt\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.989202657807309
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015791,\"voltage\":117.745535,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"err_code\":-3,\"err_msg\":\"invalid argument\"}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990041493775934
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015525,\"voltage\":117.698474,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.98992443324937
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016080,\"voltage\":117.777799,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"chedule\":{\"err_code\":-1,\"err_msg\":\"module not support\"},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.985163204747775
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016058,\"voltage\":117.840956,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schdule\":{\"err_code\":-1,\"err_msg\":\"module not support\"},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.98813056379822
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015682,\"voltage\":117.802901,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedle\":{\"err_code\":-1,\"err_msg\":\"module not support\"},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-52,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.989119683481701
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015673,\"voltage\":117.704838,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"et_next_action\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-51,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.989778534923339
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015956,\"voltage\":117.801634,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"gt_next_action\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-52,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990630323679727
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015752,\"voltage\":117.897337,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"getnext_action\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990630323679727
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015368,\"voltage\":117.820256,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_ext_action\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.992333901192504
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015606,\"voltage\":117.741384,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_nxt_action\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-55,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991482112436116
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016129,\"voltage\":117.715902,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_net_action\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-55,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991482112436116
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015766,\"voltage\":117.665186,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_nex_action\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.988926746166951
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016223,\"voltage\":117.559262,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_nextaction\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990630323679727
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016113,\"voltage\":117.679066,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_ction\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-55,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.993185689948893
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016020,\"voltage\":117.693714,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_ation\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.988074957410562
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016258,\"voltage\":117.484954,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-58,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990251827782291
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015832,\"voltage\":117.619865,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"gt_daystat\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.98876404494382
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015269,\"voltage\":117.751181,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"ge_daystat\":{\"err_code\":-2,\"err_msg\":\"member not support\"},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.989566613162119
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015572,\"voltage\":117.517324,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"err_code\":-3,\"err_msg\":\"invalid argument\"},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-52,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.99037690457097
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015646,\"voltage\":117.521032,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"et_monthstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991701244813278
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015798,\"voltage\":117.558578,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"gt_monthstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990871369294606
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015705,\"voltage\":117.415619,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"ge_monthstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990871369294606
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015748,\"voltage\":117.414216,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"getmonthstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":5,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-52,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991701244813278
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015722,\"voltage\":117.369377,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_onthstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-57,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990041493775934
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015924,\"voltage\":117.384534,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_mnthstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991701244813278
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015480,\"voltage\":117.402513,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_mothstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990871369294606
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015660,\"voltage\":117.274018,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monhstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990041493775934
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015466,\"voltage\":117.475211,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_montstat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-54,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.989211618257261
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016078,\"voltage\":117.354777,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthtat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.989211618257261
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015371,\"voltage\":117.350111,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstt\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-52,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.990041493775934
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015579,\"voltage\":117.369561,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthsta\":{\"err_code\":-2,\"err_msg\":\"member not support\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-51,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991701244813278
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015483,\"voltage\":117.486774,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"err_code\":-3,\"err_msg\":\"invalid argument\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-52,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991708126036484
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016150,\"voltage\":117.610479,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"err_code\":-3,\"err_msg\":\"invalid argument\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991708126036484
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015719,\"voltage\":117.646238,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"err_code\":-3,\"err_msg\":\"invalid argument\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-52,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991708126036484
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015820,\"voltage\":117.556501,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"err_code\":-3,\"err_msg\":\"invalid argument\"}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991708126036484
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015631,\"voltage\":117.436285,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-53,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.98993288590604
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015747,\"voltage\":117.506327,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"ystem\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+0.984423676012461
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015671,\"voltage\":117.371475,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"sstem\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+0.982866043613707
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016307,\"voltage\":117.434915,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"sytem\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+0.985981308411215
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015833,\"voltage\":117.400941,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"sysem\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+0.984423676012461
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015786,\"voltage\":117.314352,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"systm\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+0.982866043613707
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015970,\"voltage\":117.382706,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":2,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-56,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.991876523151909
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015775,\"voltage\":117.451256,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"et_sysinfo\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+0.984848484848485
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015382,\"voltage\":117.528516,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"gt_sysinfo\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+0.987878787878788
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.016029,\"voltage\":117.346241,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"getsysinfo\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+0.986363636363636
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015951,\"voltage\":117.293769,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":31}],\"err_code\":0}},\"system\":{\"get_ysinfo\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+0.984848484848485
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015276,\"voltage\":117.276547,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":32}],\"err_code\":0}},\"system\":{\"get_ssinfo\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+0.987878787878788
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015678,\"voltage\":117.298483,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":32}],\"err_code\":0}},\"system\":{\"get_syinfo\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+0.986363636363636
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015641,\"voltage\":117.349768,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":32}],\"err_code\":0}},\"system\":{\"get_sysnfo\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+0.986363636363636
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015812,\"voltage\":117.338525,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":32}],\"err_code\":0}},\"system\":{\"get_sysifo\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+0.987878787878788
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015642,\"voltage\":117.355770,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":32}],\"err_code\":0}},\"system\":{\"get_sysino\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+0.987878787878788
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015398,\"voltage\":117.318753,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":32}],\"err_code\":0}},\"system\":{\"get_sysinf\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+0.984848484848485
++++++++++++++++
+===============
+{"error_code":0,"result":{"responseData":"{\"emeter\":{\"get_realtime\":{\"current\":0.015862,\"voltage\":117.379676,\"power\":0,\"total\":0,\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"energy\":0}],\"err_code\":0}},\"schedule\":{\"get_next_action\":{\"schd_time\":84660,\"action\":0,\"type\":1,\"id\":\"9448500437D5EF32386CBBF2790D7051\",\"err_code\":0},\"get_daystat\":{\"day_list\":[],\"err_code\":0},\"get_monthstat\":{\"month_list\":[{\"year\":2020,\"month\":6,\"time\":32}],\"err_code\":0}},\"system\":{\"get_sysinfo\":{\"err_code\":0,\"sw_ver\":\"1.2.5 Build 171206 Rel.085954\",\"hw_ver\":\"1.0\",\"type\":\"IOT.SMARTPLUGSWITCH\",\"model\":\"HS110(US)\",\"mac\":\"50:C7:BF:0A:9C:89\",\"deviceId\":\"800671CE1DA43E81F0BF4A8FCBC8AAFD17623753\",\"hwId\":\"60FF6B258734EA6880E186F8C96DDC61\",\"fwId\":\"00000000000000000000000000000000\",\"oemId\":\"FFF22CFF774A0B89F7624BFC6F50D5DE\",\"alias\":\"123\",\"dev_name\":\"Wi-Fi Smart Plug With Energy Monitoring\",\"icon_hash\":\"\",\"relay_state\":1,\"on_time\":3,\"active_mode\":\"schedule\",\"feature\":\"TIM:ENE\",\"updating\":0,\"rssi\":-54,\"led_off\":0,\"latitude\":-37.824251,\"longitude\":145.089170}}}"}}
+---------------
+0.9910641754671
++++++++++++++++
+Index - End
+
+
+
+Response Type - End
+

@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\xfeng\\Desktop\\ProjectFuzzer -test1.3\\Fuzzer\\Fuzzer\\Fuzzer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\xfeng\\Desktop\\ProjectFuzzer -test1.3\\Fuzzer\\Fuzzer\\Fuzzer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xfeng\\Desktop\\ProjectFuzzer -test1.3\\Fuzzer\\Fuzzer\\Fuzzer.csproj",
+        "projectName": "Fuzzer",
+        "projectPath": "C:\\Users\\xfeng\\Desktop\\ProjectFuzzer -test1.3\\Fuzzer\\Fuzzer\\Fuzzer.csproj",
+        "packagesPath": "C:\\Users\\xfeng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xfeng\\Desktop\\ProjectFuzzer -test1.3\\Fuzzer\\Fuzzer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xfeng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Aglomera": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Aglomera.D3": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

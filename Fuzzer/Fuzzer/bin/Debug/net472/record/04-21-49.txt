@@ -1,0 +1,213 @@
+Detection4Randonmness - Begin
+0.8466666666666667 1 1 
+Detection4Randonmness - End
+
+First State - Begin
+=====================================================
+Message 1 :
+
+{"method":"login","params":{"appType":"Kasa_Android","cloudPassword":"000106lu","cloudUserName":"escofeng@gmail.com","terminalUUID":"cdf77221-371d-4125-87ac-e068a2e16118"}}
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+=====================================================
+Message 2 :
+
+{"method":"passthrough", "params": {"deviceId": "8006051B8A99DF4C5B334FD95BEF9CB219FEE365", "requestData": "{\"system\":{\"set_relay_state\":{\"state\":0}}}" }}
+1 1 2 2 2 2 2 2 1 1 1 2 2 2 2 2 2 2 2 2 2 2 1 1 0 1 3 3 3 3 3 3 1 1 0 1 1 3 3 3 3 3 3 3 3 1 1 0 1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 1 1 0 1 3 3 3 3 3 3 3 3 3 3 3 1 1 0 1 5 1 1 6 7 8 9 10 11 1 1 1 1 1 1 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 1 1 1 1 1 1 27 27 27 27 27 1 1 1 1 1 1 1 1 0 1 1 
+
+=====================================================
+Message 3 :
+
+{"method":"passthrough", "params": {"deviceId": "8006051B8A99DF4C5B334FD95BEF9CB219FEE365", "requestData": "{\"system\":{\"set_relay_state\":{\"state\":1}}}" }}
+1 1 2 2 2 2 2 2 1 1 1 2 2 2 2 2 2 2 2 2 2 2 1 1 0 1 3 3 3 3 3 3 1 1 0 1 1 3 3 3 3 3 3 3 3 1 1 0 1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 1 1 0 1 3 3 3 3 3 3 3 3 3 3 3 1 1 0 1 5 1 1 6 7 8 9 10 11 1 1 1 1 1 1 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 1 1 1 1 1 1 27 27 27 27 27 1 1 1 1 1 1 1 1 0 1 1 
+
+
+First State - End
+
+Response Type - Begin
+Index - 0
+===============
+{"error_code":0,"result":{"accountId":"7198820","regTime":"2019-08-18 05:58:01","email":"escofeng@gmail.com","token":"20cd1c05-C2pDnHiXaJWjfO8d0b1O4wI"}}
+---------------
+Index - End
+
+
+Index - 0
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_state\":{\"err_code\":0}}}"}}
+---------------
+===============
+{"error_code":-10100,"msg":"JSON format error"}
+---------------
+===============
+{"error_code":-20103,"msg":"The method does not exist or is not available"}
+---------------
+===============
+{"error_code":-20104,"msg":"Parameter doesn't exist"}
+---------------
+===============
+{"error_code":-20580,"msg":"Account is not binded to the device"}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"ystem\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"sstem\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"sytem\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"sysem\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"systm\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"syste\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"et_relay_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"st_relay_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"se_relay_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"setrelay_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_elay_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_rlay_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_reay_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_rely_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_rela_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relaystate\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_tate\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_sate\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_stte\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_stae\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_stat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_state\":{\"err_code\":-3,\"err_msg\":\"invalid argument\"}}}"}}
+---------------
+Index - End
+
+
+Index - 0
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_state\":{\"err_code\":0}}}"}}
+---------------
+===============
+{"error_code":-10100,"msg":"JSON format error"}
+---------------
+===============
+{"error_code":-20103,"msg":"The method does not exist or is not available"}
+---------------
+===============
+{"error_code":-20104,"msg":"Parameter doesn't exist"}
+---------------
+===============
+{"error_code":-20580,"msg":"Account is not binded to the device"}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"ystem\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"sstem\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"sytem\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"sysem\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"systm\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"syste\":{\"err_code\":-1,\"err_msg\":\"module not support\"}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"et_relay_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"st_relay_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"se_relay_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"setrelay_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_elay_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_rlay_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_reay_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_rely_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_rela_state\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relaystate\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_tate\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_sate\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_stte\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_stae\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_stat\":{\"err_code\":-2,\"err_msg\":\"member not support\"}}}"}}
+---------------
+===============
+{"error_code":0,"result":{"responseData":"{\"system\":{\"set_relay_state\":{\"err_code\":-3,\"err_msg\":\"invalid argument\"}}}"}}
+---------------
+Index - End
+
+
+
+Response Type - End
+
